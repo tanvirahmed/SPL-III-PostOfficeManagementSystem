@@ -1,4 +1,4 @@
-### Post Office Management SYstem
+#### Post Office Management System
 
 Post office management system is a system of Bangladesh government owned organization “Post Office” which provides postal delivery and public services manually. My proposed system is to automate the parcel delivery and money order services. 
 After signing in as System admin of post office management system he/she can view the options of add new branches, branch managers view and edit branches and managers. He/she can add all the Zilla and Upzilla branches of post office across the country. He/she can also search the branch and edit branch information’s. Branches are added sector wised through division to zilla and upzilla. He can also add the branch managers and assign the managers to respective branches. He/she can search the managers and edit personal information’s of the managers. System admin has also the authorization of track the parcels and can go through the whole system.
@@ -11,25 +11,39 @@ Laravel has the most extensive and thorough documentation and video tutorial lib
 
 If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-## Laravel Sponsors
+For Learning the installation of Laravel 5.4 see this link https://laravel.com/docs/5.4/installation
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+## Installation
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
+1. git clone https://github.com/tanvirahmed/SPL-III-PostOfficeManagementSystem.git projectname
+2. cd projectname
+3. composer install
+4. php artisan key:generate
+5. install Xampp and start
+5. import the sql file post_office_management in http://localhost/phpmyadmin/ link
+6. start the app in http://localhost/postmaster/ link
+7. create an account in https://www.nexmo.com/ to send messages for track id and PIN in free test numbers created
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## Features
 
-## Security Vulnerabilities
+•	Log in
+•	View branch
+•	Adding branch
+•	Edit Branch
+•	View branch manager
+•	Assigning managers to branch
+•	Update branch managers
+•	View parcel
+•	Add parcel
+•	Edit parcel
+•	Add money order
+•	Edit money order
+•	Tracking Product
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
+## Tricks
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+• Administrator : email = admin@gmail.co,, password = 123456
+• Branch Manager named Tarif: email = tarif@gmail.com, password = 123456
+• Branch Manager named Real: email = real@gmail.com, password = 123456
