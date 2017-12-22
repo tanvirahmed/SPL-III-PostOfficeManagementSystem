@@ -1,0 +1,348 @@
+
+@import "fonts.css";
+@import "../fonts/Roboto/fonts.css";
+body {
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+}
+.logo-container {
+    display: flex;
+    height: 100%;
+}
+
+.school-title {
+    color:#fff;
+    /*font-weight: bold;*/
+}
+@media (max-width: 992px) {
+    .page-padding {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .teacher-item {
+
+        width:33.3333%!important;
+
+
+    }
+
+}
+p {
+    margin:2px;
+}
+body {
+    padding:0px;
+    margin: 0px;
+}
+.text-content h2{
+
+}
+.text-content {
+    padding:10px;
+width: 100%;
+    font-family: Mukti;
+vertical-align: middle;
+}
+.page-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.header {
+
+    display: flex;
+    flex-direction: row;
+
+    min-height:200px;
+    font-family: SiyamRupali;
+    background-color: #00293e;
+}
+
+.left-panel ,.right-panel {
+    float: right;
+}
+.left-panel {
+    width:30%;
+}
+.right-panel {
+    width:70%;
+}
+.para-title {
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Mukti;
+    border-bottom:2px solid #2177a3;
+}
+@media (max-width: 768px) {
+    .left-panel,.right-panel {
+        width: 100%;
+    }
+}
+#slides .item h4{
+    margin: auto auto;
+}
+
+#slides .item span{
+    font-family: Mukti;
+font-size:30px;
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    color: #fff!important;
+
+    right:20px;
+    vertical-align: baseline;
+
+    padding:5px;
+    background: rgba(0, 0, 0, 0.24);
+}
+#slides .item{
+
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    color:#F0C000;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    background-color: #2177a3;
+}
+#nav-bar  a{
+    font-size: 17px!important;
+}
+#nav-bar {
+
+    height:44px;
+    background-color: #2177a3;
+    border-bottom-color: #F0C000;
+}
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+
+}
+#nav-bar li {
+    color: #fff;
+    float: left;
+}
+#nav-bar  li:hover {
+    color: #000!important;
+}
+
+#nav-bar li a {
+    display: block;
+
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Mukti;
+    cursor: pointer;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav-bar li a:hover {
+    color: #000!important;
+    /*background-color: #F0C000;*/
+}
+
+
+.sub-menu {
+max-width: 250px;
+    display:none;
+    position: absolute;
+    flex-direction: column;
+    z-index: 999999;
+    /*-webkit-transition-delay: 2s; !* Safari *!*/
+    /*transition-delay: 2s;*/
+
+}
+
+.sub-menu li {
+    display: block;
+    width: 100%;
+    overflow: visible!important;
+    background-color: #F0C000;;
+}
+
+.sub-menu li a {
+    /*border-left: 5px solid #F0C000;*/
+    font-family: Mukti;
+    color:#000!important;
+    text-decoration:none;
+text-align: left!important;
+    padding:10px;
+    display:block;
+}
+
+[class*="sub-menu-level-"] {
+    left: 200px;
+    /*top: 0!important;*/
+    margin-top: -44px!important;
+    min-width: 200px;
+
+}
+[class*="sub-menu-level-"] li {
+    background-color:#fff035!important; ;
+}
+[class*="sub-menu-level-"] li a:hover {
+    background-color: #fffb6f !important; ;
+}
+[class*="sub-menu-level-"] li.active{
+    background-color: #e5f63e !important;
+}
+[class*="sub-menu-level-"] li a.active{
+    background-color: #e5f63e !important;
+}
+.sub-menu a {
+    transition: border .1s ease-out;
+}
+.sub-menu li a:hover {
+    padding:10px;
+
+
+    color: #000!important;
+    border-left: 5px solid #2177a3!important;
+    /*background-color: #fff035 !important;*/
+}
+[class*="sub-menu-level-"] {
+    background-color: #fff035!important;
+}
+#nav-bar li:hover{
+color: #000!important;
+    background-color: #fff035 !important;
+}
+.mtop-10 {
+    margin-top:10px!important;
+}
+.mtop-15 {
+    margin-top:15px!important;
+}
+.mtop-20 {
+    margin-top:20px!important;
+}
+.bangla {
+    font-family: "Siyam Rupali ANSI"!important;
+}
+
+.title-20 {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-25 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.title-30 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-hori {
+    display: flex;
+    flex-direction: row;
+}
+.content-vert {
+    display: flex;
+    flex-direction: column;
+}
+.notice-container {
+
+}
+.notice-item {
+
+
+    padding:5px;
+    background-color: #ffc000;
+}
+.notice-date {
+
+}
+.notice-detail {
+
+
+}
+.material-icons {
+    vertical-align: middle!important;
+}
+.link-item {
+    background-color: #2177a3;
+    color:#fff;
+    border: 0px solid #2177a3;
+padding:5px;
+    margin-bottom: 5px;
+    transition: border .1s ease-out;
+}
+#nav-bar  a {
+
+    text-decoration: none;
+}
+.justify {
+    text-align: justify
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+#nav-bar li.active {
+    color: #000!important;
+    background-color: #e5f63e !important;
+
+}
+.link-item a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none!important;
+}
+.link-item.active {
+    color: #000!important;
+    background-color: #fff035 !important;
+}
+.link-item:hover {
+    background-color: #278ec3 ;
+
+    cursor: pointer;
+}
+
+.teacher-content,.gallery-content {
+    padding:5px;
+    border: 1px solid #ddd;
+}
+.gallery-item-title {
+    padding:2px;
+}
+.gallery-content:hover {
+    background: #278ec3;
+    color: #fff;
+    cursor: pointer;
+}
+.teacher-item,.gallery-item {
+    padding:5px;
+box-sizing: border-box;
+    width:25%;
+
+    float: left;
+}
+.result-table{
+    border-collapse: collapse;
+}
+.result-table tbody tr:nth-child(even){
+background-color: rgb(250,250,250);
+}
+.result-table td{
+    border:1px solid #ddd;
+}
+.result-table thead td{
+font-weight: bold;
+    background-color: #efefef;
+}
+.content-box {
+
+}
+
+#news-slides .item{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}

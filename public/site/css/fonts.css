@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Mukti';
+    src: url('../fonts/Mukti.eot');
+    src: url('../fonts/Mukti.woff') format('woff'),
+    url('../fonts/Mukti.ttf') format('truetype'),
+    url('../fonts/Mukti.svg#Mukti') format('svg'),
+    url('../fonts/Mukti.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kalpurush';
+    src: url('../fonts/Kalpurush.eot');
+    src: url('../fonts/Kalpurush.woff') format('woff'),
+    url('../fonts/Kalpurush.ttf') format('truetype'),
+    url('../fonts/Kalpurush.svg#Kalpurush') format('svg'),
+    url('../fonts/Kalpurush.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SiyamRupali';
+    src: url('../fonts/SiyamRupali.eot');
+    src: url('../fonts/SiyamRupali.woff') format('woff'),
+    url('../fonts/SiyamRupali.ttf') format('truetype'),
+    url('../fonts/SiyamRupali.svg#SiyamRupali') format('svg'),
+    url('../fonts/SiyamRupali.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Siyam Rupali ANSI';
+    src: url('../fonts/Siyam_ansi.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
