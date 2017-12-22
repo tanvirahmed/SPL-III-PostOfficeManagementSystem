@@ -1,5 +1,5 @@
 # Post Office Management System
-It is a web based project for my SPL-3 Course
+It is a web based project for my SPL-3 Course. Ihave used HTML,CSS,JavaScript,Bootstrap,PHP,Laravel Framerork 5.4,MySql Server for the project
 
 ## Project Scenario
 
@@ -32,21 +32,21 @@ For Learning the installation of Laravel 5.4 see this link https://laravel.com/d
 
 1. Log in
 2. View branch
-•	Adding branch
-•	Edit Branch
-•	View branch manager
-•	Assigning managers to branch
-•	Update branch managers
-•	View parcel
-•	Add parcel
-•	Edit parcel
-•	Add money order
-•	Edit money order
-•	Tracking Product
+3. Adding branch
+4. Edit Branch
+5. View branch manager
+6. Assigning managers to branch
+7. Update branch managers
+8. View parcel
+9. Add parcel
+10. Edit parcel
+11. Add money order
+12. Edit money order
+13. Tracking Product
 
 
 ## Tricks
 
-• Administrator : email = admin@gmail.co,, password = 123456
-• Branch Manager named Tarif: email = tarif@gmail.com, password = 123456
-• Branch Manager named Real: email = real@gmail.com, password = 123456
+1.Administrator : email = admin@gmail.co,, password = 123456
+2.Branch Manager named Tarif: email = tarif@gmail.com, password = 123456
+3.Branch Manager named Real: email = real@gmail.com, password = 123456
