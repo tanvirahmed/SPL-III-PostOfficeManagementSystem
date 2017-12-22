@@ -1,25 +1,9 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+### Post Office Management SYstem
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+Post office management system is a system of Bangladesh government owned organization “Post Office” which provides postal delivery and public services manually. My proposed system is to automate the parcel delivery and money order services. 
+After signing in as System admin of post office management system he/she can view the options of add new branches, branch managers view and edit branches and managers. He/she can add all the Zilla and Upzilla branches of post office across the country. He/she can also search the branch and edit branch information’s. Branches are added sector wised through division to zilla and upzilla. He can also add the branch managers and assign the managers to respective branches. He/she can search the managers and edit personal information’s of the managers. System admin has also the authorization of track the parcels and can go through the whole system.
+After logging in as Branch managers, he/she can see the option of adding new parcels and money orders, update information’s of the products and tracking options. At the time of adding a new parcel or money order it is specified with an auto generated id number and then branch managers upload all the information’s of the product including source, destination, sender and receiver’s information’s, status of the product. He/she can assign the product to the up next branch and track it. He/she can also see the product list in his branch and get notified about the pending request of products from another branch and can approve the request. He/she can track the product with its current location through google map. Branch manager can also deliver the money order to the receiver by matching the pin number of respective money order slip. 
+In this system, customers get their issued product id number through email and can track the current location of their product through the number. He/she can receive the money through pin number which send through mobile phone sms.
 
 ## Learning Laravel
 
