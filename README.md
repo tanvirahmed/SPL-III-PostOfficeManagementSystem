@@ -1,4 +1,7 @@
 # Post Office Management System
+It is a web based project for my SPL-3 Course
+
+## Project Scenario
 
 Post office management system is a system of Bangladesh government owned organization “Post Office” which provides postal delivery and public services manually. My proposed system is to automate the parcel delivery and money order services. 
 After signing in as System admin of post office management system he/she can view the options of add new branches, branch managers view and edit branches and managers. He/she can add all the Zilla and Upzilla branches of post office across the country. He/she can also search the branch and edit branch information’s. Branches are added sector wised through division to zilla and upzilla. He can also add the branch managers and assign the managers to respective branches. He/she can search the managers and edit personal information’s of the managers. System admin has also the authorization of track the parcels and can go through the whole system.
@@ -27,8 +30,8 @@ For Learning the installation of Laravel 5.4 see this link https://laravel.com/d
 
 ## Features
 
-•	Log in
-•	View branch
+1. Log in
+2. View branch
 •	Adding branch
 •	Edit Branch
 •	View branch manager
