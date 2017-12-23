@@ -47,6 +47,6 @@ For Learning the installation of Laravel 5.4 see this link https://laravel.com/d
 
 ## Tricks
 
-1.Administrator : email = admin@gmail.com, password = 123456
-2.Branch Manager named Tarif: email = tarif@gmail.com, password = 123456
+1.Administrator : email = admin@gmail.com, password = 123456 
+2.Branch Manager named Tarif: email = tarif@gmail.com, password = 123456 
 3.Branch Manager named Real: email = real@gmail.com, password = 123456
